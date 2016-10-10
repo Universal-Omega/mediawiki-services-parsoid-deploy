@@ -1,0 +1,40 @@
+# Number of worker processes to spawn.
+# Set to 0 to run everything in a single process without clustering.
+# Use 'ncpu' to run as many workers as there are CPU units
+num_workers: ncpu
+
+# Log error messages and gracefully restart a worker if v8 reports that it
+# uses more heap (note: not RSS) than this many mb.
+worker_heap_limit_mb: 800
+
+# The maximum interval in ms that can pass between two beat messages
+# sent by each worker to the master before it is killed
+worker_heartbeat_timeout: 180000
+
+# Logger info
+logging:
+  level: warn
+  name: <%= log_name %>
+  streams:
+    - host: <%= logstash_host %>
+      port: <%= logstash_port %>
+      type: gelf
+    - level: info
+      path: <%= log_file %>
+      type: file
+
+# Statsd metrics reporter
+metrics:
+  name: <%= metrics_name %>
+  host: <%= metrics_host %>
+  port: <%= metrics_port %>
+  type: statsd
+
+services:
+  - name: <%= name %>
+    entrypoint: apiServiceWorker
+    module: src/lib/index.js
+    conf:
+      cors: "*"
+      port: <%= port %>
+      localsettings: <%= localsettings %>
