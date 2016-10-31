@@ -1,3 +1,9 @@
+parsoid (0.5.3all) jessie-mediawiki; urgency=high
+
+  * Security release: Fix reflected XSS security hole
+
+ -- Subramanya Sastry <subbu@earth>  Mon, 31 Oct 2016 15:24:17 -0500
+
 parsoid (0.5.1all) jessie-mediawiki; urgency=medium
 
    * Fixes to the broken 0.5.0 release
