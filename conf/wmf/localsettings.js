@@ -22,12 +22,6 @@ exports.setup = function( parsoidConfig ) {
 	// a chance of succeeding.
 	parsoidConfig.timeouts.request = 3*60*1000; // 3 minutes
 
-	// Bump default resource limits.
-	// With node v4, we have a wider margin.
-	parsoidConfig.limits.wt2html.maxWikitextSize = 1250000;
-	parsoidConfig.limits.wt2html.maxListItems = 50000;
-	parsoidConfig.limits.wt2html.maxTableCells = 50000;
-
 	// Sample these verbose logs to prevent overwhelm
 	// 1% and 2% for empty/tr and empty/li is based on
 	// seeing the volume in rt-testing.
