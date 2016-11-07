@@ -1,3 +1,28 @@
+parsoid (0.6.0all) jessie-mediawiki; urgency=medium
+
+  * Updated bundled parsoid to git commit a48bda79
+  * See src/HISTORY.md for details of what changed in Parsoid
+
+  There are two big changes in this package that might potentially
+  be breaking changes for some installations.
+
+  1. In this upgrade, Parsoid has migrated to the service-runner npm
+     package for providing the scaffolding for Parsoid's server.
+     - service-runner expects a config.yaml file instead of a settings.js
+       file. Parsoid's config.yaml file lets you use a settings.js file
+       via the localsettings config option there.
+     - This debian package automatically updates the config.yaml file
+       to point to any pre-existing /etc/mediawiki/parsoid/settings.js
+       file which should let you upgrade your Parsoid package without
+       breaking your install.
+  2. The other big change is the removal of the previously deprecated
+     v1/v2 APIs in Parsoid. This shouldn't affect you unless you have
+     scripts that reference those APIs. Your VisualEditor installation
+     *might* break if you haven't updated it recently if it were using
+     these older APIs.
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Mon, 07 Nov 2016 17:02:23 -0600
+
 parsoid (0.5.3all) jessie-mediawiki; urgency=high
 
   * Security release: Fix reflected XSS security hole
