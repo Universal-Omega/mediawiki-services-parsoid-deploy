@@ -1,5 +1,5 @@
 # config for the server
-debian/settings.js /etc/mediawiki/parsoid/
+debian/config.yaml /etc/mediawiki/parsoid/
 
 # main source
 src/ usr/lib/parsoid/

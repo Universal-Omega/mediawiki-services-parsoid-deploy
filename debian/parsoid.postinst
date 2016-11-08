@@ -57,4 +57,12 @@ makedir parsoid parsoid:parsoid 700
 
 #DEBHELPER#
 
+# If there is a Parsoid localsettings.js file
+# from a previous install, update the config.yaml file
+# to point to it
+if [ -e /etc/mediawiki/parsoid/settings.js ]; then
+	sed 's/#\s*localsettings:.*$/localsettings: \/etc\/mediawiki\/parsoid\/settings.js/g; s/mwApis:/#mwApis:/g; s/\(- # This is the only required parameter\)/#\1/g; s/^\(\s*\)uri:/\1#uri:/g; s/^\(\s*\)domain:/\1#domain:/g;' < /etc/mediawiki/parsoid/config.yaml > /etc/mediawiki/parsoid/config.yaml.new
+	mv /etc/mediawiki/parsoid/config.yaml.new /etc/mediawiki/parsoid/config.yaml
+fi
+
 exit 0
