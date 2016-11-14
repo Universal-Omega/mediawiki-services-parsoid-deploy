@@ -1,3 +1,9 @@
+parsoid (0.6.1all) jessie-mediawiki; urgency=medium
+
+  * Fixes to the broken 0.6.0 release
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Mon, 14 Nov 2016 16:06:59 -0600
+
 parsoid (0.6.0all) jessie-mediawiki; urgency=medium
 
   * Updated bundled parsoid to git commit a48bda79
