@@ -7,6 +7,7 @@ exports.setup = function(parsoidConfig) {
 	parsoidConfig.setMwApi({ prefix: 'cawiki', uri: 'https://ca.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'commonswiki', uri: 'https://commons.wikimedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'dewiki', uri: 'https://de.wikipedia.beta.wmflabs.org/w/api.php' });
+	parsoidConfig.setMwApi({ prefix: 'dewiktionary', uri: 'https://de.wiktionary.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'en_rtlwiki', uri: 'https://en-rtl.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'enwiki', uri: 'https://en.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'enwikibooks', uri: 'https://en.wikibooks.beta.wmflabs.org/w/api.php' });
@@ -15,7 +16,7 @@ exports.setup = function(parsoidConfig) {
 	parsoidConfig.setMwApi({ prefix: 'enwikisource', uri: 'https://en.wikisource.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'enwikiversity', uri: 'https://en.wikiversity.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'enwikivoyage', uri: 'https://en.wikivoyage.beta.wmflabs.org/w/api.php' });
-	parsoidConfig.setMwApi({ prefix: 'enwiktionary', uri: 'https://en.wikitionary.beta.wmflabs.org/w/api.php' });
+	parsoidConfig.setMwApi({ prefix: 'enwiktionary', uri: 'https://en.wiktionary.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'eowiki', uri: 'https://eo.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'eswiki', uri: 'https://es.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'fawiki', uri: 'https://fa.wikipedia.beta.wmflabs.org/w/api.php' });
