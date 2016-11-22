@@ -1,19 +1,8 @@
 "use strict";
 exports.setup = function( parsoidConfig ) {
-	parsoidConfig.loadWMF = true;
-	parsoidConfig.usePHPPreProcessor = true;
-
-	// Communicate with the ParsoidBatchAPI extension on the MW API side (default false)
-	parsoidConfig.useBatchAPI = true;
-
-	parsoidConfig.useSelser = true;
-
 	// Use the API backends directly without hitting the text varnishes.
 	// API requests are not cacheable anyway.
 	parsoidConfig.defaultAPIProxyURI = 'http://api.svc.eqiad.wmnet';
-
-	// Allow cors as we are only running on non-sensitive domains
-	parsoidConfig.allowCORS = '*';
 
 	// RESTBase uses 2 minutes timeouts for the first request
 	// and a higher value subsequently.

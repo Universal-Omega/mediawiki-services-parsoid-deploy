@@ -1,7 +1,5 @@
 "use strict";
 exports.setup = function(parsoidConfig) {
-	parsoidConfig.loadWMF = false;
-
 	parsoidConfig.setMwApi({ prefix: 'aawiki', uri: 'https://aa.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'arwiki', uri: 'https://ar.wikipedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'cawiki', uri: 'https://ca.wikipedia.beta.wmflabs.org/w/api.php' });
@@ -39,15 +37,6 @@ exports.setup = function(parsoidConfig) {
 
 	// the production enwiki: a work-around to be able to use the labs parsoid instance from RESTBase
 	parsoidConfig.setMwApi({ prefix: 'enwikiprod', uri: 'https://en.wikipedia.org/w/api.php' });
-
-	// Use the PHP preprocessor to expand templates via the MW API (default true)
-	parsoidConfig.usePHPPreProcessor = true;
-
-	// Communicate with the ParsoidBatchAPI extension on the MW API side (default false)
-	parsoidConfig.useBatchAPI = true;
-
-	// Use selective serialization (default false)
-	parsoidConfig.useSelser = true;
 
 	// Sample verbose logs
 	parsoidConfig.loggerSampling = [

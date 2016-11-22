@@ -11,4 +11,4 @@ metrics_port: 8252
 name: parsoid
 port: 8000
 localsettings: conf/wmf/localsettings.js
-
+load_wmf: true

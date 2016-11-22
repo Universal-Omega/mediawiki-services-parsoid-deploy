@@ -35,6 +35,11 @@ services:
     entrypoint: apiServiceWorker
     module: src/lib/index.js
     conf:
-      cors: "*"
       port: <%= port %>
       localsettings: <%= localsettings %>
+
+      allowCORS: "*"
+      loadWMF: <%= load_wmf %>
+      useSelser: true
+      useBatchAPI: true
+      usePHPPreProcessor: true
