@@ -15,9 +15,9 @@ exports.setup = function( parsoidConfig ) {
 	// 1% and 2% for empty/tr and empty/li is based on
 	// seeing the volume in rt-testing.
 	parsoidConfig.loggerSampling = [
-		['warning/dsr/inconsistent', 5],
-		['warning/empty/li', 1],
-		['warning/empty/tr', 0],
-		[/^warning\/empty\//, 5],
+		['warn/dsr/inconsistent', 5],
+		['warn/empty/li', 1],
+		['warn/empty/tr', 0],
+		[/^warn\/empty\//, 5],
 	];
 };

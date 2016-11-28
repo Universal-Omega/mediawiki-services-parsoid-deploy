@@ -40,9 +40,9 @@ exports.setup = function(parsoidConfig) {
 
 	// Sample verbose logs
 	parsoidConfig.loggerSampling = [
-		['warning/dsr/inconsistent', 5],
-		['warning/empty/li', 10],
-		['warning/empty/tr', 10],
-		[/^warning\/empty\//, 10],
+		['warn/dsr/inconsistent', 5],
+		['warn/empty/li', 10],
+		['warn/empty/tr', 10],
+		[/^warn\/empty\//, 10],
 	];
 };
