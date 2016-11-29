@@ -1,3 +1,3 @@
 localsettings: conf/wmf/betalabs.localsettings.js
 load_wmf: false
-api_proxy: undefined
+api_proxy: !!js/undefined ''
