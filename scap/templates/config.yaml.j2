@@ -44,10 +44,6 @@ services:
       useBatchAPI: true
       usePHPPreProcessor: true
 
-      # Use the API backends directly without hitting the text varnishes.
-      # API requests are not cacheable anyway.
-      defaultAPIProxyURI: <%= api_proxy %>
-
       # RESTBase uses 2 minutes timeouts for the first request
       # and a higher value subsequently.
       #

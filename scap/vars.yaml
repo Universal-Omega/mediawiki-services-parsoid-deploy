@@ -12,4 +12,3 @@ name: parsoid
 port: 8000
 localsettings: conf/wmf/localsettings.js
 load_wmf: true
-api_proxy: "http://api.svc.eqiad.wmnet"
