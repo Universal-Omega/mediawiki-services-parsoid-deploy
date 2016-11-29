@@ -10,6 +10,10 @@ exports.setup = function(parsoidConfig) {
 		});
 	});
 
+	// Wikidata in labs doesn't have the www. subdomain
+	parsoidConfig.removeMwApi({ domain: 'www.wikidata.beta.wmflabs.org' });
+	parsoidConfig.setMwApi({ prefix: 'wikidatawiki', uri: 'https://wikidata.beta.wmflabs.org/w/api.php' });
+
 	// Some wikis not found in the sitematrix
 	parsoidConfig.setMwApi({ prefix: 'labs', uri: 'https://deployment.wikimedia.beta.wmflabs.org/w/api.php' });
 	parsoidConfig.setMwApi({ prefix: 'en_rtlwiki', uri: 'https://en-rtl.wikipedia.beta.wmflabs.org/w/api.php' });
