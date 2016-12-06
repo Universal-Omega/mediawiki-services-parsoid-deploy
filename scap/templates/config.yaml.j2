@@ -8,8 +8,12 @@ num_workers: ncpu
 worker_heap_limit_mb: 800
 
 # The maximum interval in ms that can pass between two beat messages
-# sent by each worker to the master before it is killed
-worker_heartbeat_timeout: 180000
+# sent by each worker to the master before it is killed.
+#
+# This is slightly larger than the request timeout so the request is
+# guaranteed to use its full 110s time allocation to complete its
+# parse while contending for cpu time with other concurrent requests.
+worker_heartbeat_timeout: 115000
 
 # Logger info
 logging:
@@ -44,10 +48,12 @@ services:
       useBatchAPI: true
       usePHPPreProcessor: true
 
-      # RESTBase uses 2 minutes timeouts for the first request
-      # and a higher value subsequently.
-      #
-      # Set a 3 minute timeout so that RESTBase retries have
-      # a chance of succeeding.
       timeouts:
-        request: 180000  # 3 minutes
+        # RESTBase uses a 2 minute timeout for the first request.
+        #
+        # Set ours to 110s so we time out before RB times out and retries.
+        # This prevents RB from retrying slow requests altogether.
+        request: 110000
+        mwApi:
+          # Bump batch timeout to 65s (higher than MW API timeout of 60s)
+          batch: 65000
