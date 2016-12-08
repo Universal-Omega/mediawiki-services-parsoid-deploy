@@ -1,2 +1,4 @@
 localsettings: conf/wmf/betalabs.localsettings.js
 load_wmf: false
+linting: true
+linter_send_api: true

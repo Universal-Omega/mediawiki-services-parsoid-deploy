@@ -47,6 +47,8 @@ services:
       useSelser: true
       useBatchAPI: true
       usePHPPreProcessor: true
+      linting: <%= linting %>
+      linterSendAPI: <%= linter_send_api %>
 
       timeouts:
         # RESTBase uses a 2 minute timeout for the first request.
