@@ -57,3 +57,8 @@ services:
         mwApi:
           # Bump batch timeout to 65s (higher than MW API timeout of 60s)
           batch: 65000
+
+      limits:
+        wt2html:
+          maxTableCells: 40000
+          maxListItems: 40000
