@@ -12,8 +12,8 @@ name: parsoid
 port: 8000
 localsettings: conf/wmf/localsettings.js
 load_wmf: true
-linting: false
-linter_send_api: false
+linting: true
+linter_send_api: true
 mwapi_server:
 mwapi_proxy:
 
