@@ -1,3 +1,5 @@
+# Changes to this list should also update
+# $wgLinterSubmitterWhitelist in operations/mediawiki-config
 wtp1003.eqiad.wmnet
 wtp1004.eqiad.wmnet
 wtp1005.eqiad.wmnet
