@@ -1,3 +1,18 @@
+parsoid (0.7.0all) jessie-mediawiki; urgency=medium
+
+  * Updated bundled parsoid to git commit 95b84701
+  * See src/HISTORY.md for details of what changed in Parsoid
+
+  This is the last release with support for node 0.10.
+  Going forward, node v4 is required.
+  Wikimedia production version is now using node v6.
+
+  The only notable change in this release is a native Parsoid
+  implementation of the <gallery> extension. Besides that,
+  there have been a number of bug fixes.
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Thu, 30 Mar 2017 15:40:38 -0500
+
 parsoid (0.6.1all) jessie-mediawiki; urgency=medium
 
   * Fixes to the broken 0.6.0 release
@@ -33,7 +48,7 @@ parsoid (0.5.3all) jessie-mediawiki; urgency=high
 
   * Security release: Fix reflected XSS security hole
 
- -- Subramanya Sastry <subbu@earth>  Mon, 31 Oct 2016 15:24:17 -0500
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Mon, 31 Oct 2016 15:24:17 -0500
 
 parsoid (0.5.1all) jessie-mediawiki; urgency=medium
 
