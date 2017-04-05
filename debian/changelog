@@ -1,3 +1,13 @@
+parsoid (0.7.1all) jessie-mediawiki; urgency=medium
+
+  * No code / functionality changes since 0.7.1
+  * This is a quick follouwp over 0.7.0 to fix the wrong claim
+    that 0.7.x supports node 0.10. It doesn't. This version
+    also updates the debian/control file to depend on nodejs
+    version >= 4.0.0
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Wed, 05 Apr 2017 12:50:22 -0500
+
 parsoid (0.7.0all) jessie-mediawiki; urgency=medium
 
   * Updated bundled parsoid to git commit 95b84701
