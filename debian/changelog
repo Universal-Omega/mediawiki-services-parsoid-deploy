@@ -3,8 +3,7 @@ parsoid (0.7.0all) jessie-mediawiki; urgency=medium
   * Updated bundled parsoid to git commit 95b84701
   * See src/HISTORY.md for details of what changed in Parsoid
 
-  This is the last release with support for node 0.10.
-  Going forward, node v4 is required.
+  This release requires at least node v4.
   Wikimedia production version is now using node v6.
 
   The only notable change in this release is a native Parsoid
