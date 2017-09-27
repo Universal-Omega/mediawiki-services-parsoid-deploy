@@ -48,7 +48,8 @@ services:
       useBatchAPI: true
       usePHPPreProcessor: true
       linting: <%= linting %>
-      linterSendAPI: <%= linter_send_api %>
+      linter:
+        sendAPI: <%= linter_send_api %>
 
       mwApiServer: <%= mwapi_server if mwapi_server else '' %>
       defaultAPIProxyURI: <%= mwapi_proxy if mwapi_proxy else '' %>
