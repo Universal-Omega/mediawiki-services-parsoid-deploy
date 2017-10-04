@@ -2,5 +2,5 @@
 # $wgLinterSubmitterWhitelist in operations/mediawiki-config
 wtp2001.codfw.wmnet
 wtp2002.codfw.wmnet
-wtp1001.eqiad.wmnet
-wtp1002.eqiad.wmnet
+wtp1025.eqiad.wmnet
+wtp1026.eqiad.wmnet
