@@ -1,7 +1,7 @@
 Source: parsoid
 Section: web
 Priority: optional
-Maintainer: Gabriel Wicke <gwicke@wikimedia.org>
+Maintainer: Parsing Team, Wikimedia Foundation <parsing-team@wikimedia.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 Homepage: http://www.mediawiki.org/wiki/Parsoid

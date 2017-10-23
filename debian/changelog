@@ -1,3 +1,15 @@
+parsoid (0.8.0all) jessie-mediawiki; urgency=medium
+
+  * Updated bundled parsoid to git commit 6fd67276
+  * See src/HISTORY.md for details of what changed in Parsoid
+  * Notable changes:
+    - audio/video support
+    - red links and disambiguation links marked up
+    - support for improved TemplateData format specifier which lets
+      templates control formatting of transclusions after VE edits
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Mon, 23 Oct 2017 14:50:36 -0500
+
 parsoid (0.7.1all) jessie-mediawiki; urgency=medium
 
   * No code / functionality changes since 0.7.1
