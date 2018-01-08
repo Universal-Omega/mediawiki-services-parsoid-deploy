@@ -16,4 +16,5 @@ linting: true
 linter_send_api: true
 mwapi_server:
 mwapi_proxy:
-
+num_workers: ncpu
+use_worker: false
