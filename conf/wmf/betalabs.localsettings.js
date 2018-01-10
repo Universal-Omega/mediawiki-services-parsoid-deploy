@@ -20,12 +20,4 @@ exports.setup = function(parsoidConfig) {
 
 	// The production enwiki: a work-around to be able to use the labs parsoid instance from RESTBase
 	parsoidConfig.setMwApi({ prefix: 'enwikiprod', uri: 'https://en.wikipedia.org/w/api.php' });
-
-	// Sample verbose logs
-	parsoidConfig.loggerSampling = [
-		['warn/dsr/inconsistent', 5],
-		['warn/empty/li', 10],
-		['warn/empty/tr', 10],
-		[/^warn\/empty\//, 10],
-	];
 };
