@@ -1,4 +1,4 @@
-/* jshint strict:false */
+/* eslint-disable strict */
 /**
  * @module nock/scope
  */
@@ -8,7 +8,6 @@ var globalIntercept = require('./intercept')
   , url             = require('url')
   , _               = require('lodash')
   , debug           = require('debug')('nock.scope')
-  , stringify       = require('json-stringify-safe')
   , EventEmitter    = require('events').EventEmitter
   , extend          = require('util')._extend
   , globalEmitter   = require('./global_emitter')
@@ -147,7 +146,6 @@ Scope.prototype.activeMocks = function activeMocks() {
 }
 
 Scope.prototype.isDone = function isDone() {
-  var self = this;
   // if nock is turned off, it always says it's done
   if (! globalIntercept.isOn()) { return true; }
 
@@ -205,8 +203,11 @@ Scope.prototype.log = function log(newLogger) {
   return this;
 };
 
-Scope.prototype.persist = function persist() {
-  this._persist = true;
+Scope.prototype.persist = function persist(flag) {
+  this._persist = flag == null ? true : flag;
+  if (typeof this._persist !== 'boolean') {
+    throw new Error('Invalid arguments: argument should be a boolean');
+  }
   return this;
 };
 
@@ -297,6 +298,7 @@ function define(nockDefs) {
       , status     = getStatusFromDefinition(nockDef)
       , rawHeaders = nockDef.rawHeaders || []
       , reqheaders = nockDef.reqheaders || {}
+      , badheaders = nockDef.badheaders || []
       , body       = nockDef.body       || ''
       , options    = nockDef.options    || {};
 
@@ -305,6 +307,7 @@ function define(nockDefs) {
     //  be changing the user's options object so we clone it first.
     options = _.clone(options) || {};
     options.reqheaders = reqheaders;
+    options.badheaders = badheaders;
 
     //  Response is not always JSON as it could be a string or binary data or
     //  even an array of binary buffers (e.g. when content is enconded)
