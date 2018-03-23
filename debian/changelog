@@ -1,3 +1,22 @@
+parsoid (0.9.0all) jessie-mediawiki; urgency=medium
+
+  * Updated bundled parsoid to git commit 5fe6923ab
+  * See src/HISTORY.md for details of what changed in Parsoid
+  * Notable changes:
+    - Parsoid HTML version is now 1.6.1
+    - Sections are wrapped in <section> tags.
+
+  IMPORTANT NOTICE:
+  - This version of Parsoid will not work with versions of Visual Editor
+    or Parsoid clients that request a Parsoid HTML version earlier than
+    1.6.0. If your Visual Editor code is newer than December 12, 2017,
+    you are good. Otherwise, you will have to update your Visual Editor
+    installation to a newer version.
+
+  This is the last version of Parsoid with node v4 support.
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Fri, 23 Mar 2018 09:14:49 -0500
+
 parsoid (0.8.0all) jessie-mediawiki; urgency=medium
 
   * Updated bundled parsoid to git commit 6fd67276
