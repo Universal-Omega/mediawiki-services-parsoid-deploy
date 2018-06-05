@@ -1,3 +1,10 @@
+parsoid (0.8.1all) jessie-mediawiki; urgency=medium
+
+  * Upgraded node modules to address security advisories since v0.8.0
+  * Updated nsprc to ignore an advisory that isn't applicable
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Tue, 05 Jun 2018 14:53:40 -0500
+
 parsoid (0.8.0all) jessie-mediawiki; urgency=medium
 
   * Updated bundled parsoid to git commit 6fd67276
