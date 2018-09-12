@@ -1,6 +1,6 @@
 "use strict";
 exports.setup = function(parsoidConfig) {
-	parsoidConfig.initMwApiMap();
+	parsoidConfig.loadWMFApiMap();
 
 	Array.from(parsoidConfig.mwApiMap.values()).forEach(function(apiConf) {
 		parsoidConfig.removeMwApi(apiConf);
