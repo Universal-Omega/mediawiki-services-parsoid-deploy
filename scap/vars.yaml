@@ -16,3 +16,4 @@ linting: true
 linter_send_api: true
 mwapi_server:
 mwapi_proxy:
+strict_accept_check: false
