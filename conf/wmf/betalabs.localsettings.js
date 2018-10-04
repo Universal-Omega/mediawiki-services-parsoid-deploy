@@ -19,5 +19,12 @@ exports.setup = function(parsoidConfig) {
 	parsoidConfig.setMwApi({ prefix: 'en_rtlwiki', uri: 'https://en-rtl.wikipedia.beta.wmflabs.org/w/api.php' });
 
 	// The production enwiki: a work-around to be able to use the labs parsoid instance from RESTBase
-	parsoidConfig.setMwApi({ prefix: 'enwikiprod', uri: 'https://en.wikipedia.org/w/api.php' });
+	parsoidConfig.setMwApi({
+		prefix: 'enwikiprod',
+		uri: 'https://en.wikipedia.org/w/api.php',
+		// The production enwiki isn't found on the beta cluster so, from that
+		// perspective, it's non-global.  Set the flag to avoid using the
+		// defined `mwApiServer`
+		nonglobal: true,
+	});
 };
