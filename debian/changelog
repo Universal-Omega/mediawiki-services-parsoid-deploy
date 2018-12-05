@@ -1,3 +1,15 @@
+parsoid (0.10.0all) jessie-mediawiki; urgency=medium
+
+  * Update bundled parsoid to git tag v0.10.0
+  * See src/HISTORY.md for details of what changed in Parsoid
+  * Notable changes:
+    - Parsoid HTML version is now 2.0.0
+    - Support for the Content Negotiation Protocol for
+      negotiating HTML content versions
+    - Support for template styles
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Wed, 05 Dec 2018 15:59:48 -0600
+
 parsoid (0.9.0all) jessie-mediawiki; urgency=medium
 
   * Updated bundled parsoid to git commit 5fe6923ab
