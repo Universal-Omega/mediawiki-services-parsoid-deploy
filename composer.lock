@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b141203409c1888288f5ef85ba19fedd",
+    "content-hash": "8ff8ad69b0161479f6425f9997bb9f2a",
     "packages": [
         {
             "name": "composer/semver",
-            "version": "1.4.2",
+            "version": "1.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
-                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573"
+                "reference": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/semver/zipball/c7cb9a2095a074d131b65a8a0cd294479d785573",
-                "reference": "c7cb9a2095a074d131b65a8a0cd294479d785573",
+                "url": "https://api.github.com/repos/composer/semver/zipball/46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
+                "reference": "46d9139568ccb8d9e7cdd4539cab7347568a5e2e",
                 "shasum": ""
             },
             "require": {
@@ -66,7 +66,7 @@
                 "validation",
                 "versioning"
             ],
-            "time": "2016-08-30T16:08:34+00:00"
+            "time": "2019-03-19T17:25:45+00:00"
         },
         {
             "name": "liuggio/statsd-php-client",
@@ -640,24 +640,23 @@
     "packages-dev": [
         {
             "name": "composer/spdx-licenses",
-            "version": "1.4.0",
+            "version": "1.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "cb17687e9f936acd7e7245ad3890f953770dec1b"
+                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/cb17687e9f936acd7e7245ad3890f953770dec1b",
-                "reference": "cb17687e9f936acd7e7245ad3890f953770dec1b",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
+                "reference": "a1aa51cf3ab838b83b0867b14e56fc20fbd55b3d",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.3.2 || ^7.0"
+                "php": "^5.3.2 || ^7.0 || ^8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.5",
-                "phpunit/phpunit-mock-objects": "2.3.0 || ^3.0"
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || 6.5 - 7"
             },
             "type": "library",
             "extra": {
@@ -697,7 +696,7 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2018-04-30T10:33:04+00:00"
+            "time": "2019-03-26T10:23:26+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -976,24 +975,24 @@
         },
         {
             "name": "mediawiki/mediawiki-codesniffer",
-            "version": "25.0.0",
+            "version": "v26.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-tools-codesniffer.git",
-                "reference": "0c232c5359aa194cc8bf3a194cdf0eaf0953393f"
+                "reference": "742e5614dd253ab825190334266551e0ad766bc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/0c232c5359aa194cc8bf3a194cdf0eaf0953393f",
-                "reference": "0c232c5359aa194cc8bf3a194cdf0eaf0953393f",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-codesniffer/zipball/742e5614dd253ab825190334266551e0ad766bc3",
+                "reference": "742e5614dd253ab825190334266551e0ad766bc3",
                 "shasum": ""
             },
             "require": {
-                "composer/semver": "1.4.2",
-                "composer/spdx-licenses": "1.4.0",
+                "composer/semver": "1.5.0",
+                "composer/spdx-licenses": "1.5.1",
                 "ext-mbstring": "*",
                 "php": ">= 5.6.99",
-                "squizlabs/php_codesniffer": "3.4.1"
+                "squizlabs/php_codesniffer": "3.4.2"
             },
             "require-dev": {
                 "jakub-onderka/php-console-highlighter": "0.3.2",
@@ -1017,20 +1016,20 @@
                 "codesniffer",
                 "mediawiki"
             ],
-            "time": "2019-04-05T21:56:35+00:00"
+            "time": "2019-05-10T23:43:13+00:00"
         },
         {
             "name": "mediawiki/mediawiki-phan-config",
-            "version": "0.4.0",
+            "version": "0.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-tools-phan.git",
-                "reference": "45867ef3926c542e299cbf4d080ca13fd9fcbdec"
+                "reference": "3b9f98d2ef09a7bb2bcf94d873acc61842520143"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-phan/zipball/45867ef3926c542e299cbf4d080ca13fd9fcbdec",
-                "reference": "45867ef3926c542e299cbf4d080ca13fd9fcbdec",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-tools-phan/zipball/3b9f98d2ef09a7bb2bcf94d873acc61842520143",
+                "reference": "3b9f98d2ef09a7bb2bcf94d873acc61842520143",
                 "shasum": ""
             },
             "require": {
@@ -1046,7 +1045,7 @@
             },
             "type": "library",
             "extra": {
-                "phan": "1.2.4"
+                "phan": "1.3.4"
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1060,7 +1059,7 @@
             ],
             "description": "Standard MediaWiki phan configuration",
             "homepage": "https://www.mediawiki.org/wiki/Continuous_integration/Phan",
-            "time": "2019-02-24T04:47:21+00:00"
+            "time": "2019-06-02T01:05:31+00:00"
         },
         {
             "name": "mediawiki/minus-x",
@@ -2804,16 +2803,16 @@
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.4.1",
+            "version": "3.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa"
+                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/5b4333b4010625d29580eb4a41f1e53251be6baa",
-                "reference": "5b4333b4010625d29580eb4a41f1e53251be6baa",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
+                "reference": "b8a7362af1cc1aadb5bd36c3defc4dda2cf5f0a8",
                 "shasum": ""
             },
             "require": {
@@ -2851,7 +2850,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2019-03-19T03:22:27+00:00"
+            "time": "2019-04-10T23:49:02+00:00"
         },
         {
             "name": "symfony/console",
