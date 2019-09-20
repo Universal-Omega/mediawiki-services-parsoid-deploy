@@ -135,7 +135,7 @@ return array(
     'Parsoid\\PageBundle' => $baseDir . '/src/src/PageBundle.php',
     'Parsoid\\Parsoid' => $baseDir . '/src/src/Parsoid.php',
     'Parsoid\\ResourceLimitExceededException' => $baseDir . '/src/src/ResourceLimitExceededException.php',
-    'Parsoid\\Selser' => $baseDir . '/src/src/Selser.php',
+    'Parsoid\\SelserData' => $baseDir . '/src/src/SelserData.php',
     'Parsoid\\SrConverter' => $baseDir . '/src/src/Language/LanguageSr.php',
     'Parsoid\\Tests\\MockDataAccess' => $baseDir . '/src/tests/mocks/MockDataAccess.php',
     'Parsoid\\Tests\\MockEnv' => $baseDir . '/src/tests/mocks/MockEnv.php',

@@ -227,7 +227,7 @@ class ComposerStaticInitf5461770929ddc52e12f48cb0981e736
         'Parsoid\\PageBundle' => __DIR__ . '/../..' . '/src/src/PageBundle.php',
         'Parsoid\\Parsoid' => __DIR__ . '/../..' . '/src/src/Parsoid.php',
         'Parsoid\\ResourceLimitExceededException' => __DIR__ . '/../..' . '/src/src/ResourceLimitExceededException.php',
-        'Parsoid\\Selser' => __DIR__ . '/../..' . '/src/src/Selser.php',
+        'Parsoid\\SelserData' => __DIR__ . '/../..' . '/src/src/SelserData.php',
         'Parsoid\\SrConverter' => __DIR__ . '/../..' . '/src/src/Language/LanguageSr.php',
         'Parsoid\\Tests\\MockDataAccess' => __DIR__ . '/../..' . '/src/tests/mocks/MockDataAccess.php',
         'Parsoid\\Tests\\MockEnv' => __DIR__ . '/../..' . '/src/tests/mocks/MockEnv.php',
