@@ -131,6 +131,7 @@ return array(
     'Parsoid\\LanguageSr' => $baseDir . '/src/src/Language/LanguageSr.php',
     'Parsoid\\LanguageZh' => $baseDir . '/src/src/Language/LanguageZh.php',
     'Parsoid\\Logger\\LintLogger' => $baseDir . '/src/src/Logger/LintLogger.php',
+    'Parsoid\\Logger\\ParsoidLogger' => $baseDir . '/src/src/Logger/ParsoidLogger.php',
     'Parsoid\\MachineLanguageGuesser' => $baseDir . '/src/src/Language/LanguageConverter.php',
     'Parsoid\\PageBundle' => $baseDir . '/src/src/PageBundle.php',
     'Parsoid\\Parsoid' => $baseDir . '/src/src/Parsoid.php',

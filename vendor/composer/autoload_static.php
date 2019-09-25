@@ -223,6 +223,7 @@ class ComposerStaticInitf5461770929ddc52e12f48cb0981e736
         'Parsoid\\LanguageSr' => __DIR__ . '/../..' . '/src/src/Language/LanguageSr.php',
         'Parsoid\\LanguageZh' => __DIR__ . '/../..' . '/src/src/Language/LanguageZh.php',
         'Parsoid\\Logger\\LintLogger' => __DIR__ . '/../..' . '/src/src/Logger/LintLogger.php',
+        'Parsoid\\Logger\\ParsoidLogger' => __DIR__ . '/../..' . '/src/src/Logger/ParsoidLogger.php',
         'Parsoid\\MachineLanguageGuesser' => __DIR__ . '/../..' . '/src/src/Language/LanguageConverter.php',
         'Parsoid\\PageBundle' => __DIR__ . '/../..' . '/src/src/PageBundle.php',
         'Parsoid\\Parsoid' => __DIR__ . '/../..' . '/src/src/Parsoid.php',
