@@ -1,3 +1,9 @@
 checks:
   depool: {}
   repool: {}
+  symlink:
+    type: command
+    stage: promote
+    command: ln -s /srv/deployment/parsoid/deploy/vendor /srv/deployment/parsoid/deploy/src/vendor
+    timeout: 5
+
