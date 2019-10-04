@@ -209,6 +209,7 @@ return array(
     'Parsoid\\Wt2Html\\PP\\Processors\\AddMediaInfo' => $baseDir . '/src/src/Wt2Html/PP/Processors/AddMediaInfo.php',
     'Parsoid\\Wt2Html\\PP\\Processors\\AddRedLinks' => $baseDir . '/src/src/Wt2Html/PP/Processors/AddRedLinks.php',
     'Parsoid\\Wt2Html\\PP\\Processors\\ComputeDSR' => $baseDir . '/src/src/Wt2Html/PP/Processors/ComputeDSR.php',
+    'Parsoid\\Wt2Html\\PP\\Processors\\ConvertOffsets' => $baseDir . '/src/src/Wt2Html/PP/Processors/ConvertOffsets.php',
     'Parsoid\\Wt2Html\\PP\\Processors\\HandlePres' => $baseDir . '/src/src/Wt2Html/PP/Processors/HandlePres.php',
     'Parsoid\\Wt2Html\\PP\\Processors\\LangConverter' => $baseDir . '/src/src/Wt2Html/PP/Processors/LangConverter.php',
     'Parsoid\\Wt2Html\\PP\\Processors\\Linter' => $baseDir . '/src/src/Wt2Html/PP/Processors/Linter.php',

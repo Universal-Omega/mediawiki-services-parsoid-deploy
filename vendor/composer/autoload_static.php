@@ -301,6 +301,7 @@ class ComposerStaticInitf5461770929ddc52e12f48cb0981e736
         'Parsoid\\Wt2Html\\PP\\Processors\\AddMediaInfo' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/AddMediaInfo.php',
         'Parsoid\\Wt2Html\\PP\\Processors\\AddRedLinks' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/AddRedLinks.php',
         'Parsoid\\Wt2Html\\PP\\Processors\\ComputeDSR' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/ComputeDSR.php',
+        'Parsoid\\Wt2Html\\PP\\Processors\\ConvertOffsets' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/ConvertOffsets.php',
         'Parsoid\\Wt2Html\\PP\\Processors\\HandlePres' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/HandlePres.php',
         'Parsoid\\Wt2Html\\PP\\Processors\\LangConverter' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/LangConverter.php',
         'Parsoid\\Wt2Html\\PP\\Processors\\Linter' => __DIR__ . '/../..' . '/src/src/Wt2Html/PP/Processors/Linter.php',
