@@ -9,3 +9,8 @@ checks:
     stage: restart_service
     command: pool-parsoid
     timeout: 60
+  symlink:
+    type: command
+    stage: promote
+    command: ln -s /srv/deployment/parsoid/deploy/vendor /srv/deployment/parsoid/deploy/src/vendor
+    timeout: 5
