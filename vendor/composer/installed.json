@@ -414,6 +414,67 @@
         "homepage": "https://www.mediawiki.org/wiki/IPUtils"
     },
     {
+        "name": "wikimedia/langconv",
+        "version": "0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/wikimedia/mediawiki-libs-LangConv.git",
+            "reference": "d33b49fad560b2ce1006443a07b0bd0379870557"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/d33b49fad560b2ce1006443a07b0bd0379870557",
+            "reference": "d33b49fad560b2ce1006443a07b0bd0379870557",
+            "shasum": ""
+        },
+        "require": {
+            "ext-dom": "*",
+            "ext-json": "*",
+            "php": ">=7.2.0",
+            "wikimedia/assert": "0.2.2"
+        },
+        "require-dev": {
+            "jakub-onderka/php-console-highlighter": "0.3.2",
+            "jakub-onderka/php-parallel-lint": "1.0.0",
+            "mediawiki/mediawiki-codesniffer": "25.0.0",
+            "mediawiki/mediawiki-phan-config": "0.4.0",
+            "mediawiki/minus-x": "0.3.1",
+            "ockcyp/covers-validator": "1.1.0",
+            "phan/phan": "^1.2",
+            "phpspec/phpspec": "^5.0",
+            "phpunit/phpunit": "^6.5",
+            "wikimedia/testing-access-wrapper": "~1.0"
+        },
+        "time": "2019-10-16T15:14:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Wikimedia\\LangConv\\": [
+                    "src"
+                ]
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Wikimedia Parsing Team and the broader MediaWiki community",
+                "homepage": "https://www.mediawiki.org/wiki/Parsoid"
+            }
+        ],
+        "description": "Finite-State Transducer implementation of MediaWiki LanguageConverter",
+        "homepage": "https://github.com/wikimedia/mediawiki-libs-LangConv#readme",
+        "keywords": [
+            "Wikimedia",
+            "language converter",
+            "mediawiki"
+        ]
+    },
+    {
         "name": "wikimedia/remex-html",
         "version": "2.1.0",
         "version_normalized": "2.1.0.0",
