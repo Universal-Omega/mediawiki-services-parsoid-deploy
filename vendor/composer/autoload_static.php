@@ -281,6 +281,7 @@ class ComposerStaticInitf5461770929ddc52e12f48cb0981e736
         'Parsoid\\Utils\\DataBag' => __DIR__ . '/../..' . '/src/src/Utils/DataBag.php',
         'Parsoid\\Utils\\PHPUtils' => __DIR__ . '/../..' . '/src/src/Utils/PHPUtils.php',
         'Parsoid\\Utils\\PipelineUtils' => __DIR__ . '/../..' . '/src/src/Utils/PipelineUtils.php',
+        'Parsoid\\Utils\\Timing' => __DIR__ . '/../..' . '/src/src/Utils/Timing.php',
         'Parsoid\\Utils\\Title' => __DIR__ . '/../..' . '/src/src/Utils/Title.php',
         'Parsoid\\Utils\\TitleException' => __DIR__ . '/../..' . '/src/src/Utils/TitleException.php',
         'Parsoid\\Utils\\TitleNamespace' => __DIR__ . '/../..' . '/src/src/Utils/TitleNamespace.php',

@@ -184,6 +184,7 @@ return array(
     'Parsoid\\Utils\\DataBag' => $baseDir . '/src/src/Utils/DataBag.php',
     'Parsoid\\Utils\\PHPUtils' => $baseDir . '/src/src/Utils/PHPUtils.php',
     'Parsoid\\Utils\\PipelineUtils' => $baseDir . '/src/src/Utils/PipelineUtils.php',
+    'Parsoid\\Utils\\Timing' => $baseDir . '/src/src/Utils/Timing.php',
     'Parsoid\\Utils\\Title' => $baseDir . '/src/src/Utils/Title.php',
     'Parsoid\\Utils\\TitleException' => $baseDir . '/src/src/Utils/TitleException.php',
     'Parsoid\\Utils\\TitleNamespace' => $baseDir . '/src/src/Utils/TitleNamespace.php',
