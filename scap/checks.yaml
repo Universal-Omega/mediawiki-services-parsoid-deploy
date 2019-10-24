@@ -14,3 +14,8 @@ checks:
     stage: promote
     command: ln -s /srv/deployment/parsoid/deploy/vendor /srv/deployment/parsoid/deploy/src/vendor
     timeout: 5
+  restart_php:
+    type: command
+    stage: restart_service
+    command: /usr/local/sbin/restart-php7.2-fpm
+    timeout: 120
