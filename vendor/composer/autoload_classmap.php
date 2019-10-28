@@ -142,6 +142,7 @@ return array(
     'Parsoid\\Tests\\MockDataAccess' => $baseDir . '/src/tests/mocks/MockDataAccess.php',
     'Parsoid\\Tests\\MockEnv' => $baseDir . '/src/tests/mocks/MockEnv.php',
     'Parsoid\\Tests\\MockEnvTest' => $baseDir . '/src/tests/phpunit/MockEnvTest.php',
+    'Parsoid\\Tests\\MockMetrics' => $baseDir . '/src/tests/mocks/MockMetrics.php',
     'Parsoid\\Tests\\MockPageConfig' => $baseDir . '/src/tests/mocks/MockPageConfig.php',
     'Parsoid\\Tests\\MockPageContent' => $baseDir . '/src/tests/mocks/MockPageContent.php',
     'Parsoid\\Tests\\MockSiteConfig' => $baseDir . '/src/tests/mocks/MockSiteConfig.php',
