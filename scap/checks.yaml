@@ -4,11 +4,6 @@ checks:
     stage: promote
     command: depool-parsoid
     timeout: 60
-  repool:
-    type: command
-    stage: restart_service
-    command: pool-parsoid
-    timeout: 60
   symlink:
     type: command
     stage: promote
@@ -19,3 +14,8 @@ checks:
     stage: restart_service
     command: sudo /usr/local/sbin/restart-php7.2-fpm
     timeout: 120
+  repool:
+    type: command
+    stage: restart_service
+    command: pool-parsoid
+    timeout: 60

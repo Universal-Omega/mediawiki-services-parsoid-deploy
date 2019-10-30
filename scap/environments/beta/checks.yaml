@@ -1,8 +1,8 @@
 checks:
   depool: {}
-  repool: {}
   restart_php:
     type: command
     stage: restart_service
     command: sudo /bin/systemctl restart php7.2-fpm
     timeout: 120
+  repool: {}
