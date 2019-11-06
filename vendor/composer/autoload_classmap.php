@@ -157,6 +157,7 @@ return array(
     'Parsoid\\Tests\\ParserTests\\StyleTag' => $baseDir . '/src/tests/ParserTests/StyleTag.php',
     'Parsoid\\Tests\\ParserTests\\Test' => $baseDir . '/src/tests/ParserTests/Test.php',
     'Parsoid\\Tests\\ParserTests\\TestRunner' => $baseDir . '/src/tests/ParserTests/TestRunner.php',
+    'Parsoid\\Tests\\ParserTests\\UnexpectedException' => $baseDir . '/src/tests/ParserTests/UnexpectedException.php',
     'Parsoid\\Tokens\\CommentTk' => $baseDir . '/src/src/Tokens/CommentTk.php',
     'Parsoid\\Tokens\\DomSourceRange' => $baseDir . '/src/src/Tokens/DomSourceRange.php',
     'Parsoid\\Tokens\\EOFTk' => $baseDir . '/src/src/Tokens/EOFTk.php',

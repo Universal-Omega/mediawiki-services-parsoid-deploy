@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitf729c45bc4978655e4e3d2e330b81589
+class ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3
 {
     public static $files = array (
         'eccc0347283a01e62f5536bcf76b6e62' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/Functions.php',
@@ -254,6 +254,7 @@ class ComposerStaticInitf729c45bc4978655e4e3d2e330b81589
         'Parsoid\\Tests\\ParserTests\\StyleTag' => __DIR__ . '/../..' . '/src/tests/ParserTests/StyleTag.php',
         'Parsoid\\Tests\\ParserTests\\Test' => __DIR__ . '/../..' . '/src/tests/ParserTests/Test.php',
         'Parsoid\\Tests\\ParserTests\\TestRunner' => __DIR__ . '/../..' . '/src/tests/ParserTests/TestRunner.php',
+        'Parsoid\\Tests\\ParserTests\\UnexpectedException' => __DIR__ . '/../..' . '/src/tests/ParserTests/UnexpectedException.php',
         'Parsoid\\Tokens\\CommentTk' => __DIR__ . '/../..' . '/src/src/Tokens/CommentTk.php',
         'Parsoid\\Tokens\\DomSourceRange' => __DIR__ . '/../..' . '/src/src/Tokens/DomSourceRange.php',
         'Parsoid\\Tokens\\EOFTk' => __DIR__ . '/../..' . '/src/src/Tokens/EOFTk.php',
@@ -476,10 +477,10 @@ class ComposerStaticInitf729c45bc4978655e4e3d2e330b81589
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitf729c45bc4978655e4e3d2e330b81589::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitf729c45bc4978655e4e3d2e330b81589::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitf729c45bc4978655e4e3d2e330b81589::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitf729c45bc4978655e4e3d2e330b81589::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3::$classMap;
 
         }, null, ClassLoader::class);
     }
