@@ -11,7 +11,7 @@ checks:
     timeout: 5
   restart_php:
     type: command
-    stage: restart_service
+    stage: promote
     command: sudo /usr/local/sbin/restart-php7.2-fpm
     timeout: 120
   repool:
