@@ -1,12 +1,12 @@
 checks:
   depool:
     type: command
-    stage: promote
+    stage: fetch
     command: depool-parsoid
     timeout: 60
   depool-fpm:
     type: command
-    stage: promote
+    stage: fetch
     command: depool-php7.2-fpm
     timeout: 60
   symlink:
