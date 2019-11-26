@@ -17,7 +17,6 @@ class ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3
             'Wikimedia\\Zest\\' => 15,
             'Wikimedia\\LangConv\\' => 19,
             'Wikimedia\\AtEase\\' => 17,
-            'Wikimedia\\Assert\\Test\\' => 22,
             'Wikimedia\\Assert\\' => 17,
             'Wikimedia\\' => 10,
             'WikiPEG\\Tests\\' => 14,
@@ -50,10 +49,6 @@ class ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3
         'Wikimedia\\AtEase\\' => 
         array (
             0 => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/AtEase',
-        ),
-        'Wikimedia\\Assert\\Test\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/wikimedia/assert/tests/phpunit',
         ),
         'Wikimedia\\Assert\\' => 
         array (
@@ -457,13 +452,14 @@ class ComposerStaticInitde1bfab9ff8331150f3f19b8423ac1b3
         'Wikimedia\\Assert\\InvariantException' => __DIR__ . '/..' . '/wikimedia/assert/src/InvariantException.php',
         'Wikimedia\\Assert\\ParameterAssertionException' => __DIR__ . '/..' . '/wikimedia/assert/src/ParameterAssertionException.php',
         'Wikimedia\\Assert\\ParameterElementTypeException' => __DIR__ . '/..' . '/wikimedia/assert/src/ParameterElementTypeException.php',
+        'Wikimedia\\Assert\\ParameterKeyTypeException' => __DIR__ . '/..' . '/wikimedia/assert/src/ParameterKeyTypeException.php',
         'Wikimedia\\Assert\\ParameterTypeException' => __DIR__ . '/..' . '/wikimedia/assert/src/ParameterTypeException.php',
         'Wikimedia\\Assert\\PostconditionException' => __DIR__ . '/..' . '/wikimedia/assert/src/PostconditionException.php',
         'Wikimedia\\Assert\\PreconditionException' => __DIR__ . '/..' . '/wikimedia/assert/src/PreconditionException.php',
-        'Wikimedia\\Assert\\Test\\AssertTest' => __DIR__ . '/..' . '/wikimedia/assert/tests/phpunit/AssertTest.php',
         'Wikimedia\\AtEase\\AtEase' => __DIR__ . '/..' . '/wikimedia/at-ease/src/Wikimedia/AtEase/AtEase.php',
         'Wikimedia\\IPSet' => __DIR__ . '/..' . '/wikimedia/ip-set/src/IPSet.php',
         'Wikimedia\\IPUtils' => __DIR__ . '/..' . '/wikimedia/ip-utils/src/IPUtils.php',
+        'Wikimedia\\LangConv\\BacktrackState' => __DIR__ . '/..' . '/wikimedia/langconv/src/BacktrackState.php',
         'Wikimedia\\LangConv\\BracketResult' => __DIR__ . '/..' . '/wikimedia/langconv/src/BracketResult.php',
         'Wikimedia\\LangConv\\FST' => __DIR__ . '/..' . '/wikimedia/langconv/src/FST.php',
         'Wikimedia\\LangConv\\ReplacementMachine' => __DIR__ . '/..' . '/wikimedia/langconv/src/ReplacementMachine.php',
