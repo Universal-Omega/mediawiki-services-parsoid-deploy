@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4707dd9c1fdc78f1703923c1d3343b74",
+    "content-hash": "1b9bf7ced4cf0d473900b2f1f4eb906d",
     "packages": [
         {
             "name": "composer/semver",
@@ -416,16 +416,16 @@
         },
         {
             "name": "wikimedia/langconv",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wikimedia/mediawiki-libs-LangConv.git",
-                "reference": "4fad6e5d927f7158469fccf0510e5660e39e223e"
+                "reference": "e939e5dd11bcf02a23500a21fc8a50b726d3d322"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/4fad6e5d927f7158469fccf0510e5660e39e223e",
-                "reference": "4fad6e5d927f7158469fccf0510e5660e39e223e",
+                "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/e939e5dd11bcf02a23500a21fc8a50b726d3d322",
+                "reference": "e939e5dd11bcf02a23500a21fc8a50b726d3d322",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +471,7 @@
                 "language converter",
                 "mediawiki"
             ],
-            "time": "2019-11-25T22:47:54+00:00"
+            "time": "2019-12-04T16:10:52+00:00"
         },
         {
             "name": "wikimedia/remex-html",
