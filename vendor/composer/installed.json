@@ -425,17 +425,17 @@
     },
     {
         "name": "wikimedia/langconv",
-        "version": "0.3.1",
-        "version_normalized": "0.3.1.0",
+        "version": "0.3.2",
+        "version_normalized": "0.3.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/wikimedia/mediawiki-libs-LangConv.git",
-            "reference": "e939e5dd11bcf02a23500a21fc8a50b726d3d322"
+            "reference": "dbc6a21c89dc823061f32240e78243b3cfcaa04e"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/e939e5dd11bcf02a23500a21fc8a50b726d3d322",
-            "reference": "e939e5dd11bcf02a23500a21fc8a50b726d3d322",
+            "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/dbc6a21c89dc823061f32240e78243b3cfcaa04e",
+            "reference": "dbc6a21c89dc823061f32240e78243b3cfcaa04e",
             "shasum": ""
         },
         "require": {
@@ -456,7 +456,7 @@
             "phpunit/phpunit": "^6.5",
             "wikimedia/testing-access-wrapper": "~1.0"
         },
-        "time": "2019-12-04T16:10:52+00:00",
+        "time": "2019-12-12T18:49:53+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
