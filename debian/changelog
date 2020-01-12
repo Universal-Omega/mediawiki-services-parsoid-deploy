@@ -1,3 +1,19 @@
+parsoid (0.11.0all) jessie-mediawiki; urgency=medium
+
+  * This is the LAST release of the JS implementation of Prasoid.
+    Parsoid. Parsoid has been ported from JS to PHP and will be more
+    closely integrated into MediaWiki and will not need its
+    own debian package henceforth.
+
+  * Updated bundled parsoid to git commit 5d37da17
+  * See src/HISTORY.md for details of what changed in Parsoid
+  * Notable changes:
+    - Parsoid HTML version is now 2.1.0
+    - Lots of code cleanup and code refactoring
+    - Language converter move out to its own repo
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Sat, 11 Jan 2020 15:46:18 +0530
+
 parsoid (0.10.0all) jessie-mediawiki; urgency=medium
 
   * Update bundled parsoid to git tag v0.10.0
