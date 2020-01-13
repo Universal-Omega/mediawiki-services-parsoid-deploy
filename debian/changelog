@@ -1,7 +1,7 @@
 parsoid (0.11.0all) jessie-mediawiki; urgency=medium
 
-  * This is the LAST release of the JS implementation of Prasoid.
-    Parsoid. Parsoid has been ported from JS to PHP and will be more
+  * This is the LAST release of the JS implementation of Parsoid.
+    Parsoid has been ported from JS to PHP and will be more
     closely integrated into MediaWiki and will not need its
     own debian package henceforth.
 
