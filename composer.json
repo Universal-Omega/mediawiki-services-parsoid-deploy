@@ -1,1 +1,52 @@
-src/composer.json
+{
+	"name": "wikimedia/parsoid-deploy",
+	"description": "Deploy tests for Parsoid",
+	"keywords": [
+		"mediawiki",
+		"parsoid"
+	],
+	"homepage": "https://www.mediawiki.org/wiki/Parsoid",
+	"authors": [
+		{
+			"name": "Wikimedia Parsing Team and the broader MediaWiki community",
+			"homepage": "https://www.mediawiki.org/wiki/Parsoid"
+		}
+	],
+	"license": "GPL-2.0-or-later",
+	"support": {
+		"irc": "irc://irc.freenode.net/mediawiki-parsoid",
+		"wiki": "https://www.mediawiki.org/wiki/Parsoid"
+	},
+	"require": {
+		"composer/semver": "1.5.0",
+		"liuggio/statsd-php-client": "1.0.18",
+		"php": ">=7.2.0",
+		"psr/log": "1.0.2",
+		"wikimedia/assert": "0.4.0",
+		"wikimedia/ip-utils": "1.0.0",
+		"wikimedia/langconv": "0.3.2",
+		"wikimedia/remex-html": "2.1.0",
+		"wikimedia/scoped-callback": "3.0.0",
+		"wikimedia/wikipeg": "2.0.3",
+		"wikimedia/zest-css": "1.1.2",
+		"ext-dom": "*",
+		"ext-json": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Parsoid\\": ["src/placeholder", "src"]
+		}
+	},
+	"scripts": {
+		"test": [
+			"src/bin/toolcheck.php.sh",
+			"php src/bin/parserTests.php --wt2html --wt2wt --html2wt --html2html --selser true --quiet --blacklist true",
+			"php src/bin/parserTests.php --wt2html --wt2wt --html2wt --html2html --selser true --quiet --blacklist true --offsetType ucs2",
+			"git diff --exit-code"
+		]
+	},
+	"config": {
+		"process-timeout": 0,
+		"optimize-autoloader": true
+	}
+}
