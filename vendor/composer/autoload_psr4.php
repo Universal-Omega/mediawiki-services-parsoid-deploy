@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Wikimedia\\Zest\\' => array($vendorDir . '/wikimedia/zest-css/src'),
+    'Wikimedia\\Parsoid\\' => array($baseDir . '/src/placeholder', $baseDir . '/src'),
     'Wikimedia\\LangConv\\' => array($vendorDir . '/wikimedia/langconv/src'),
     'Wikimedia\\AtEase\\' => array($vendorDir . '/wikimedia/at-ease/src/Wikimedia/AtEase'),
     'Wikimedia\\Assert\\' => array($vendorDir . '/wikimedia/assert/src'),
@@ -15,6 +16,5 @@ return array(
     'WikiPEG\\' => array($vendorDir . '/wikimedia/wikipeg/src'),
     'RemexHtml\\' => array($vendorDir . '/wikimedia/remex-html/RemexHtml'),
     'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
-    'Parsoid\\' => array($baseDir . '/src/placeholder', $baseDir . '/src'),
     'Composer\\Semver\\' => array($vendorDir . '/composer/semver/src'),
 );

@@ -425,17 +425,17 @@
     },
     {
         "name": "wikimedia/langconv",
-        "version": "0.3.2",
-        "version_normalized": "0.3.2.0",
+        "version": "0.3.3",
+        "version_normalized": "0.3.3.0",
         "source": {
             "type": "git",
             "url": "https://github.com/wikimedia/mediawiki-libs-LangConv.git",
-            "reference": "dbc6a21c89dc823061f32240e78243b3cfcaa04e"
+            "reference": "c520d632b74eefa0b989200862941bf294e54729"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/dbc6a21c89dc823061f32240e78243b3cfcaa04e",
-            "reference": "dbc6a21c89dc823061f32240e78243b3cfcaa04e",
+            "url": "https://api.github.com/repos/wikimedia/mediawiki-libs-LangConv/zipball/c520d632b74eefa0b989200862941bf294e54729",
+            "reference": "c520d632b74eefa0b989200862941bf294e54729",
             "shasum": ""
         },
         "require": {
@@ -445,18 +445,17 @@
             "wikimedia/assert": "0.4.0"
         },
         "require-dev": {
-            "jakub-onderka/php-console-highlighter": "0.3.2",
+            "jakub-onderka/php-console-highlighter": "0.4.0",
             "jakub-onderka/php-parallel-lint": "1.0.0",
-            "mediawiki/mediawiki-codesniffer": "28.0.0",
-            "mediawiki/mediawiki-phan-config": "0.4.0",
-            "mediawiki/minus-x": "0.3.1",
+            "mediawiki/mediawiki-codesniffer": "29.0.0",
+            "mediawiki/mediawiki-phan-config": "0.9.0",
+            "mediawiki/minus-x": "0.3.2",
             "ockcyp/covers-validator": "1.1.0",
-            "phan/phan": "^1.2",
             "phpspec/phpspec": "^5.0",
-            "phpunit/phpunit": "^6.5",
+            "phpunit/phpunit": "^8.5",
             "wikimedia/testing-access-wrapper": "~1.0"
         },
-        "time": "2019-12-12T18:49:53+00:00",
+        "time": "2020-01-28T23:07:13+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
