@@ -1,3 +1,9 @@
+parsoid (0.11.1all) jessie-mediawiki; urgency=high
+
+  * Security fix for CVE-2021-30458
+
+ -- Subramanya Sastry <ssastry@wikimedia.org>  Wed, 7 Apr 2021 21:00:00 -0500
+
 parsoid (0.11.0all) jessie-mediawiki; urgency=medium
 
   * This is the LAST release of the JS implementation of Parsoid.
